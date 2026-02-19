@@ -177,6 +177,15 @@ textarea {
     height: 150px;
 }
 
+textarea[readonly], input[readonly] {
+    color: #800020;
+    background-color: #f7f7f7; /* keep it same as the letter background */
+    border: none;
+    resize: none;
+    cursor: default; /* shows that it's not editable */
+}
+
+
 /* Stamp */
 .mail_stamp {
     width: 60px;
