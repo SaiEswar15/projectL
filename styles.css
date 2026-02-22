@@ -158,6 +158,7 @@ h1 {
 
 /* Inputs and textarea */
 input, textarea {
+    background-color: rgb(251, 231, 234);
     width: 100%;
     max-width: 100%;
     border: none;
@@ -179,7 +180,7 @@ textarea {
 
 textarea[readonly], input[readonly] {
     color: #800020;
-    background-color: #f7f7f7; /* keep it same as the letter background */
+    background-color: rgb(251, 231, 234); /* keep it same as the letter background */
     border: none;
     resize: none;
     cursor: default; /* shows that it's not editable */
@@ -196,7 +197,6 @@ textarea[readonly], input[readonly] {
 
 /* Address underline */
 #address {
-    text-decoration: underline;
     display: block;
     margin-top: 1rem;
 }
